@@ -3,5 +3,7 @@
   height: 100px;
   margin: 0 auto;
   background-color: orangered;
+  -webkit-transform: translate();
+          transform: translate();
 }
 /*# sourceMappingURL=style.css.map */

@@ -14,4 +14,51 @@
   text-decoration: none !important;
   /* ここにボタンのスタイルを追加していこう */
 }
+
+.try .btn.float:hover {
+  background-color: black;
+  color: white;
+  -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.try .btn.filled {
+  background-color: black;
+  color: white;
+  -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.try .btn.filled:hover {
+  background-color: white;
+  color: black;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.try .btn.letter-spacing:hover {
+  background-color: black;
+  color: white;
+  letter-spacing: 3px;
+}
+
+.try .btn.shadow:hover {
+  -webkit-transform: translate(-2px, -2px);
+          transform: translate(-2px, -2px);
+  -webkit-box-shadow: 5px 5px 0 black;
+          box-shadow: 5px 5px 0 black;
+}
+
+.try .btn.solid {
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 2px 0 black;
+          box-shadow: 2px 2px 0 black;
+}
+
+.try .btn.solid:hover {
+  -webkit-transform: translate(2px, 2px);
+          transform: translate(2px, 2px);
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
 /*# sourceMappingURL=try.css.map */
