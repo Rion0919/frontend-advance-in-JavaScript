@@ -1,0 +1,23 @@
+$cWhite: white;
+$cBlack: black;
+
+.btn {
+  background-color: $cWhite;
+  border: 1px solid $cBlack;
+  margin: 10px 0;
+  padding: 10px 40px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+
+  &:hover {
+    background-color: $cBlack;
+    color: $cWhite;
+  }
+}
+
+
+
+#container {
+  text-align: center;
+}
