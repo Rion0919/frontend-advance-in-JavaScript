@@ -9,6 +9,10 @@ body {
   background-color: black;
   -webkit-animation: sk-bouncedelay 1.4s;
           animation: sk-bouncedelay 1.4s;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
 }
 
 @-webkit-keyframes sk-bouncedelay {
